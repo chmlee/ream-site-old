@@ -1,6 +1,6 @@
 import adapter from '@sveltejs/adapter-auto';
 
-import wasmPack from 'vite-plugin-wasm-pack';
+//import wasmPack from 'vite-plugin-wasm-pack';
 
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
@@ -10,11 +10,11 @@ const config = {
 		// hydrate the <div id="svelte"> element in src/app.html
 		target: '#svelte',
 
-        ssr: false,
+        //ssr: false,
 
         vite: () => ({
             plugins: [
-                wasmPack('./ream')
+                //wasmPack('./ream')
             ]
         })
 	}

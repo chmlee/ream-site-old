@@ -20,5 +20,8 @@
     "svelte": "^3.44.0",
     "vite-plugin-wasm-pack": "^0.1.9"
   },
-  "type": "module"
+  "type": "module",
+  "dependencies": {
+    "reamc": "^0.4.5"
+  }
 }

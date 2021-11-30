@@ -1,5 +1,5 @@
 <script>
-import init, { ream2csv } from 'ream';
+import init, { ream2csv } from 'reamc';
 console.log(1)
 init().then(() => {
     const input = `
