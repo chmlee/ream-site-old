@@ -1,0 +1,3 @@
+[submodule "ream"]
+	path = ream
+	url = https://github.com/chmlee/ream-core
